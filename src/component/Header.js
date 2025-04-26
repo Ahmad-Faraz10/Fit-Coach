@@ -1,26 +1,13 @@
-import React, { useState } from "react";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-} from "reactstrap";
+import React from "react";
+import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 
 const Header = () => {
   return (
     <>
-      <Nav className="header_sticky header">
-        <Navbar key="lg" expand="lg">
+      <Nav className="header_sticky">
+        <Navbar key="lg" expand="xxxl">
           <NavbarBrand href="/">
-            <img height={40} width={150} src="../img/hl.webp" alt="Logo" />
+            <img height={50} width={150} src="../img/hl.webp" alt="Logo" />
           </NavbarBrand>
           <Nav>
             <NavItem>
