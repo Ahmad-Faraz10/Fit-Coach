@@ -1,0 +1,51 @@
+[
+  {
+    "image": "../product/p1.webp",
+    "title": "Formula 1 Nutritional Shake Mix",
+    "price": "3499$ ",
+    "data1": " MRP (incl. of all taxes)",
+    "weight": "500g  | 9 flavours"
+  },
+  {
+    "image": "../product/p2.webp",
+    "title": "Personalized protien Powder",
+    "price": "2999$ ",
+    "data1": " MRP (incl. of all taxes)",
+    "weight": "400g  "
+  },
+  {
+    "image": "../product/p3.webp",
+    "title": "Afresh Kashmeer1 Kahwa flavour",
+    "price": "1499$ ",
+    "data1": " MRP (incl. of all taxes)",
+    "weight": "40g |14 flavours"
+  },
+  {
+    "image": "../product/p4.jpg",
+    "title": "Shakemate Powder",
+    "price": "1499$ ",
+    "data1": " MRP (incl. of all taxes)",
+    "weight": "500g  "
+  },
+  {
+    "image": "../product/p5.jpg",
+    "title": "24 HYDRATE",
+    "price": "1299$ ",
+    "data1": " MRP (incl. of all taxes)",
+    "weight": "20 pack  "
+  },
+  {
+    "image": "../product/p6.webp",
+    "title": "Aloe concentrate",
+    "price": "1899$ ",
+    "data1": " MRP (incl. of all taxes)",
+    "weight": "500g  "
+  },
+  {
+    "image": "../product/p7.jpg",
+    "title": " Formula 2 Multivitamin Mineral And Herbal Tablets",
+    "price": "1249$ ",
+    "data1": " MRP (incl. of all taxes)",
+    "weight": "90 capsule  "
+  }
+]

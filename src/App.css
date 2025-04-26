@@ -1,0 +1,529 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.header_sticky {
+  position: sticky;
+  top: 0; /* This makes it stick to the top */
+  z-index: 1000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+:root {
+  --text: #276331;
+
+  --maincolor: #9dcaa5;
+  --darkColor: #222831;
+
+  --pinkcolor: #4d89d6;
+  --redcolor: #ba0f17;
+  --font: "Poppins", sans-serif;
+}
+/* General styling for Navbar */
+.header_sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures the navbar stays on top of other elements */
+  background-color: #9dcaa5;
+  filter: brightness(1.5);
+  background-image: linear-gradient(
+    128deg,
+    var(--maincolor) 25%,
+    var(--text) 100%
+  );
+}
+
+/* Styling for the NavLink specifically */
+.header-navlink {
+  font-size: 16px;
+  font-weight: bold; /* Bold text */
+  text-decoration: none; /* Remove underline */
+  color: var(--text); /* Default text color */
+  padding: 10px 20px; /* Padding for spacing */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for NavLink */
+.header-navlink:hover {
+  color: #fff; /* Text color on hover */
+  background-color: var(--maincolor); /* Background color on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Active link style */
+.header-navlink.active {
+  color: var(--text); /* Text color when active */
+  background-color: var(--maincolor); /* Active background color */
+}
+
+/* Focused link style */
+.header-navlink:focus {
+  outline: none; /* Remove focus outline */
+  border-bottom: 2px solid var(--text); /* Border bottom on focus */
+}
+
+.bg_color {
+  margin-bottom: 20px;
+  border-radius: 200px;
+}
+.text-title {
+  color: var(--pinkcolor);
+  font-weight: bolder;
+}
+/* .text-title h2 {
+  color: var(--pinkcolor);
+  font-weight: bolder;
+} */
+.benefit:after {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  width: 38px;
+  height: 2px;
+  background: var(--pinkcolor);
+  margin-left: 15px;
+  margin-top: 12px;
+}
+.text-subtitle {
+  color: #0ad5e3;
+  font-size: smaller;
+  font-family: var(--font);
+}
+.subtext {
+  color: var(--redcolor);
+  margin-top: 50px;
+  font-size: larger;
+  margin-bottom: 200px;
+}
+/* .text_container {
+  border-radius: 90px, 90px, 10px, 10px;
+} */
+.sider_text_bg {
+  filter: brightness(1.2);
+  background-image: linear-gradient(
+    128deg,
+    var(--text, #276331) 25%,
+    var(--maincolorr, #9dcaa5) 65%,
+    var(--text, #096d1a) 100%
+  );
+}
+.sider_container {
+  padding-top: 100px;
+  padding-left: 40px;
+  height: 600px;
+}
+.sider_img_container {
+  background-image: url("../public/img/shake1.webp");
+  background-size: contain;
+  background-position: center;
+  height: 600px; /* Set the height for the container */
+  position: relative;
+  width: 90%; /* Ensures it takes the full width */
+  overflow: hidden; /* Prevents the image from overflowing */
+}
+
+.sider_cleanser_container {
+  background-image: url("../public/img/cleanser.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px; /* Set the height for the container */
+  position: relative;
+}
+
+.learnMore_btn {
+  border: none;
+  background: var(--text);
+  display: inline-block;
+  color: #fff !important;
+  padding: 9px 20px !important;
+  border-radius: 35px;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: normal;
+  transition-duration: 0.3s;
+  font-family: var(--font);
+  box-shadow: rgba(3, 181, 190, 0.2) 0 -25px 18px -14px inset,
+    rgba(3, 181, 190, 0.15) 0 1px 2px, rgba(3, 181, 190, 0.15) 0 2px 4px,
+    rgba(3, 181, 190, 0.15) 0 4px 8px, rgba(3, 181, 190, 0.15) 0 8px 16px,
+    rgba(3, 181, 190, 0.15) 0 16px 32px;
+}
+.learnMore_btn:hover,
+.buyhere:hover {
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--text);
+}
+/* .package {
+  background-color: whitesmoke;
+  padding: 2px;
+}
+.package_container {
+  background-color: #f7afaf;
+  margin: 20px;
+  padding: 50px;
+  border: 5px var(--text);
+  border-radius: 10px;
+} */
+._bgImg {
+  background-image: url("https://img.freepik.com/free-vector/paper-style-white-monochrome-background_52683-67266.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1713139200&semt=ais");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 110px;
+}
+
+._BGlayer {
+  padding: 20px;
+  filter: brightness(1.5);
+  background-image: linear-gradient(
+    38deg,
+    var(--text) 20%,
+    var(--maincolor) 100%
+  );
+}
+.package_heading {
+  color: var(--text);
+  font-family: var(--font);
+}
+.package_text {
+  margin: 0px 60px 0px 60px;
+  color: var(--darkColor);
+}
+.top_title {
+  color: var(--pinkcolor);
+  /* Adds padding around the text */
+}
+.spcard {
+  padding: -20px;
+
+  /* Ensure card has a defined position so that the hover effect works smoothly */
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transform and shadow */
+}
+
+.spcard:hover {
+  transform: scale(1.05); /* Slightly increase the card size */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add subtle shadow when hovering */
+}
+
+/* Optional: Style for the image inside the card */
+.spcard img {
+  transition: transform 0.3s ease; /* Smooth transition for image */
+}
+
+.spcard:hover img {
+  transform: scale(1.1); /* Slightly enlarge image when hovering */
+}
+
+.buyhere {
+  border: none;
+  background: var(--text);
+}
+.about_container {
+  color: #ffffff;
+  background: var(--maincolor);
+}
+.imgabout1 {
+  margin: 0px 0px 0px 80px;
+  border-radius: 10px;
+  background-image: radial-gradient(circle, #f4f4f4 1px, transparent 1px);
+  background-size: 10px 10px;
+  max-height: 400px;
+}
+.imgabout_container {
+  background-image: url("../public/img/experts.webp");
+  margin-top: 50px;
+  position: relative;
+  height: 500px; /* Set the height for the container */
+}
+.mt-sec {
+  margin-top: 50px;
+}
+.imgabout {
+  background-image: radial-gradient(circle, #f4f4f4 1px, transparent 1px);
+  background-size: 10px 10px;
+  max-height: 400px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.aboupadd {
+  padding-top: 20px;
+}
+.about_title {
+  padding-left: 50px;
+  padding-top: 20px;
+  color: #ba0f17;
+}
+
+.about_title_h2 {
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+.about_text {
+  color: #282c34;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: larger;
+  font-weight: 200;
+}
+.about_text2 {
+  color: #000000;
+  padding-left: 50px;
+  font-size: larger;
+  font-weight: lighter;
+}
+.map_contactus {
+  padding: 100px 50px 20px 50px;
+}
+/*           footer          */
+body {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 320px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 320px;
+  /* background-color: #f5f5f5; */
+  color: var(--text);
+  background-color: #9dcaa5;
+  filter: brightness(1.5);
+  background-image: linear-gradient(
+    128deg,
+    var(--maincolor) 25%,
+    var(--text) 100%
+  );
+}
+
+.copy {
+  margin: 0 auto;
+}
+
+.container {
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  /* color: #999; */
+}
+
+a {
+  line-height: 2.2;
+  /* color: #999; */
+}
+
+a:hover {
+  color: orange;
+}
+
+.heading {
+  display: block;
+  font-size: 1rem;
+  /* color: #666; */
+  margin: 1rem 0;
+  padding: 0.5rem 0px;
+  border-bottom: 1px solid #d7d7d7;
+  letter-spacing: 3px;
+}
+
+.fa {
+  margin-top: 15px;
+  /* color: #888; */
+  font-size: 22px;
+  width: 2rem;
+}
+
+.bottom {
+  border-top: 1px solid #d7d7d7;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.social {
+  margin: 0.5rem;
+  transform: scale(1.8);
+  /* color: #666; */
+}
+.img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  /* border: 1px solid var(--maincolor); */
+}
+.img:hover {
+  border-left: 1px solid var(--maincolor);
+  border-right: 1px solid var(--darkColor);
+  border-top: 1px solid var(--darkColor);
+  border-bottom: 1px solid var(--maincolor);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.contact_container {
+  padding-bottom: 50px;
+  margin-bottom: 22px;
+}
+.mb-5 {
+  margin-bottom: 2.5rem;
+}
+
+.background_about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  padding: 50px;
+  height: auto;
+  background-image: url("../public/img/bg.jpg"); /* Adjusted path for public folder in React */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Ensure the container uses Flexbox and is responsive */
+
+/* Row with Flexbox */
+.card_row {
+  background-color: #61dafb;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+  justify-content: space-between; /* Distribute space evenly between the cards */
+}
+
+/* Card styling */
+.card {
+  flex: 1 1 22%; /* Each card takes 22% of the row's width */
+  box-sizing: border-box; /* Ensure padding and borders don't affect width */
+  border: 1px solid #9dcaa5;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Stack content vertically inside the card */
+  justify-content: center;
+  align-items: center; /* Center content horizontally */
+  background-color: #9dcaa5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+  opacity: 1; /* Initial opacity */
+  filter: brightness(1.5); /* Increase brightness of the card */
+  background-image: linear-gradient(
+    50deg,
+    var(--text) 66%,
+    var(--maincolor) 100%
+  );
+}
+
+/* Hover effect to make the card "pop" */
+.card:hover {
+  transform: translateY(-10px) scale(1.05); /* Slight lift and scale */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  opacity: 0.9; /* Slight fade effect */
+  filter: brightness(1.2); /* Slightly less bright on hover */
+  background-image: linear-gradient(
+    90deg,
+    var(--maincolor) 66%,
+    var(--text) 100%
+  );
+}
+
+/* Add a "fade-in" animation to the cards */
+.card {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Define the fadeIn animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media query for tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 48%; /* Cards take up 48% of the width (2 cards per row) */
+  }
+}
+
+/* Media query for mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .card {
+    flex: 1 1 100%; /* Cards take up 100% of the width (1 card per row) */
+  }
+}
+/*****************productt**********************/
+.card-transform {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover effect */
+.card-transform:hover {
+  transform: translateY(-10px) scale(1.05) !important; /* Apply transform */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important; /* Apply shadow */
+  filter: brightness(0.8) !important; /* Adjust brightness */
+}
+
+/* Optionally, add a border to the card when hovered for emphasis */
+.card-transform:hover .card-body {
+  border: 2px solid #276331;
+}
+
+.text-price {
+  font-weight: bold;
+  color: var(--text);
+  margin-left: 10px;
+}
+.text_w {
+  font-weight: lighter; /* Makes the text bolder */
+  color: grey;
+  margin-left: 10px; /* Adds a left margin of 10px */
+  font-size: 1.1rem;
+}
+
+.link {
+  color: var(--text);
+  font-family: sans-serif;
+  font-size: larger;
+}
+
+.link:hover {
+  color: var(--redcolor);
+}
