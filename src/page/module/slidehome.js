@@ -42,7 +42,9 @@ const Homeslide = () => {
                   </span>
                 </h1>
                 <p className="display-17 display-sm-11 display-md-9 display-lg-8 subtext display-xl-4 mb-10  ">
-                  Lorem ipsum imgabout1 imgabout1
+                  Shed unwanted pounds naturally, boost your metabolism, and
+                  unlock vibrant energy. Feel stronger, healthier, and more
+                  confident every single day!
                 </p>
                 <Link to="/" className="learnMore_btn     me-2 my-1 my-sm-0  ">
                   <span> Explore More</span>
@@ -73,7 +75,9 @@ const Homeslide = () => {
                   </span>
                 </h1>
                 <p className="display-17 display-sm-11 display-md-9 display-lg-8 subtext display-xl-4 mb-10  ">
-                  Lorem ipsum imgabout1 imgabout1
+                  Shedding excess weight boosts metabolism, enhances physical
+                  performance, and reduces stress. More energy means better
+                  focus, improved mood, and a vibrant, confident life.
                 </p>
                 <Link to="/" className="learnMore_btn     me-2 my-1 my-sm-0  ">
                   <span> Explore More</span>
@@ -101,7 +105,9 @@ const Homeslide = () => {
                   </span>
                 </h1>
                 <p className="display-17 display-sm-11 display-md-9 display-lg-8 subtext display-xl-4 mb-10  ">
-                  Lorem ipsum imgabout1 imgabout1
+                  Shedding excess weight boosts metabolism, enhances physical
+                  performance, and reduces stress. More energy means better
+                  focus, improved mood, and a vibrant, confident life.
                 </p>
                 <Link to="/" className="learnMore_btn     me-2 my-1 my-sm-0  ">
                   <span> Explore More</span>

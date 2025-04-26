@@ -41,14 +41,21 @@ const Package = () => {
                           Herbal Life product including Life time consultation
                         </p>
                         <p className="text-title ">5555$</p>
-                        <Button
-                          colorPalette="teal"
-                          variant="outline"
-                          className="buyhere"
+                        <a
+                          href="tel:+91-8423288288"
+                          className="mb-0 text-dark opacity8 small topindex"
+                          data-aos="fade-up"
+                          data-aos-duration="500"
                         >
-                          Buy Here
-                          <RiArrowRightLine />
-                        </Button>
+                          <Button
+                            colorPalette="teal"
+                            variant="outline"
+                            className="buyhere"
+                          >
+                            Buy Here
+                            <RiArrowRightLine />
+                          </Button>
+                        </a>
                       </VStack>
                     </CardBody>
                   </Card>
@@ -73,14 +80,21 @@ const Package = () => {
                           Herbal Life product including Life time consultation
                         </p>
                         <p className="text-title ">7799$</p>
-                        <Button
-                          colorPalette="teal"
-                          variant="outline"
-                          className="buyhere"
+                        <a
+                          href="tel:+91-8423288288"
+                          className="mb-0 text-dark opacity8 small topindex"
+                          data-aos="fade-up"
+                          data-aos-duration="500"
                         >
-                          Buy Here
-                          <RiArrowRightLine />
-                        </Button>
+                          <Button
+                            colorPalette="teal"
+                            variant="outline"
+                            className="buyhere"
+                          >
+                            Buy Here
+                            <RiArrowRightLine />
+                          </Button>
+                        </a>
                       </VStack>
                     </CardBody>
                   </Card>
@@ -102,17 +116,25 @@ const Package = () => {
                       <VStack spacing={0} align="center">
                         <h3 className="text-title">40 day Package</h3>
                         <p className="package_text">
-                          Herbal Life product including Life time consultation
+                          Herbal Life product for a whole day including Life
+                          time consultation
                         </p>
-                        <p className="text-title ">9999</p>
-                        <Button
-                          colorPalette="teal"
-                          variant="outline"
-                          className="buyhere"
+                        <p className="text-title ">9999$</p>
+                        <a
+                          href="tel:+91-8423288288"
+                          className="mb-0 text-dark opacity8 small topindex"
+                          data-aos="fade-up"
+                          data-aos-duration="500"
                         >
-                          Buy Here
-                          <RiArrowRightLine />
-                        </Button>
+                          <Button
+                            colorPalette="teal"
+                            variant="outline"
+                            className="buyhere"
+                          >
+                            Buy Here
+                            <RiArrowRightLine />
+                          </Button>
+                        </a>
                       </VStack>
                     </CardBody>
                   </Card>
