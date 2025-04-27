@@ -1,38 +1,36 @@
 import React from "react";
-import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 
 const Header = () => {
   return (
     <>
-      <Nav className="header_sticky">
-        <Navbar key="lg" expand="xxxl">
-          <NavbarBrand href="/">
-            <img height={50} width={150} src="../img/hl.webp" alt="Logo" />
-          </NavbarBrand>
-          <Nav>
-            <NavItem>
-              <NavLink className="header-navlink" href="/">
-                Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="header-navlink" href="/Product">
-                Product
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="header-navlink" href="/Contact">
-                Contact Us
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="header-navlink" href="/About">
-                About Us
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Navbar>
-      </Nav>
+      <div className="header_sticky">
+        <div className=" row ">
+          <div className="col-lg-3 col-sm-12 col-md-12">
+            {" "}
+            <img
+              height={50}
+              width={150}
+              src="../img/hl.webp"
+              alt="Logo"
+              className="header-logo"
+            />
+          </div>
+          <div className="col-lg-9 col-sm-12 col-md-12 header-titles">
+            <div className="header-div">
+              <a href="/">Home</a>
+            </div>
+            <div className="header-div">
+              <a href="/Product">Product</a>
+            </div>
+            <div className="header-div">
+              <a href="/Contact">Contact Us</a>
+            </div>
+            <div className="header-div">
+              <a href="/About">About Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
