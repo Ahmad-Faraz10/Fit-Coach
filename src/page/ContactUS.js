@@ -6,6 +6,7 @@ const ContactUs = () => {
     <>
       <div className="col-lg-12 col-md-12 col-sm-12 mt-1-9 map_contactus ">
         <iframe
+          title="map of"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.2226410314897!2d80.95751301151734!3d26.89642836069185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957c35c236c7b%3A0x5e75822f874482fd!2sFitCoach%20Abdulhaq%20%22Herba%20Nutrition%20Center%22%20%7C%20Nutrition%20Club%20%7C%20Fitness%20Centre%20%7C%20Wellness%20Centre!5e0!3m2!1sen!2sin!4v1740664124537!5m2!1sen!2sin"
           //  style="border:0;"
           height={400}
