@@ -1,15 +1,7 @@
-import {
-  Container,
-  Row,
-  Col,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText,
-  Input,
-} from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import "font-awesome/css/font-awesome.min.css";
 
-const Footer = (props) => (
+const Footer = () => (
   <footer className="footer">
     <Container fluid>
       <Row no-gutters>

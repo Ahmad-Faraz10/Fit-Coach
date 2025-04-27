@@ -1,4 +1,3 @@
-import { TypeAnimation } from "react-type-animation";
 import { StarIcon } from "@chakra-ui/icons";
 const Benifit = () => {
   return (

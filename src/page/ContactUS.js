@@ -1,13 +1,5 @@
-import Header from "../component/Header";
 import { EmailIcon, PhoneIcon } from "@chakra-ui/icons";
-import {
-  Card,
-  CardBody,
-  IconButton,
-  Image,
-  Stack,
-  SimpleGrid,
-} from "@chakra-ui/react";
+import { Card, CardBody, IconButton, Image, Stack } from "@chakra-ui/react";
 
 const ContactUs = () => {
   return (

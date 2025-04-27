@@ -1,20 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
-import {
-  Badge,
-  Box,
-  Button,
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  HStack,
-  Image,
-} from "@chakra-ui/react";
+import { Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
-
-import { ArrowForwardIcon } from "@chakra-ui/icons";
-
 const Homeslide = () => {
   return (
     <section className="bg_color">
